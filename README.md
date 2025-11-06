@@ -156,4 +156,81 @@ source = "github.com/alessonviana/terraform-module-proxmox?ref=main"
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome and greatly appreciated! This project is open to community involvement and we encourage you to participate.
+
+### How to Contribute
+
+#### Reporting Bugs
+
+If you've found a bug or issue with the module:
+
+1. **Check existing issues**: Before creating a new issue, please check if the problem has already been reported in the [Issues](https://github.com/alessonviana/terraform-module-proxmox/issues) section
+2. **Create a new issue**: If it's a new issue, please provide:
+   - A clear and descriptive title
+   - Steps to reproduce the issue
+   - Expected behavior vs actual behavior
+   - Terraform version and Proxmox version
+   - Relevant error messages or logs
+   - Your module configuration (sanitize sensitive information)
+
+#### Requesting Features
+
+Have an idea for a new feature or improvement?
+
+1. **Open an issue**: Create a feature request issue describing:
+   - The feature or enhancement you'd like to see
+   - Use case or problem it would solve
+   - Any relevant examples or references
+
+2. **Discussion**: We'll discuss the feature and determine the best approach
+
+#### Submitting Code Changes
+
+We welcome code contributions through Pull Requests (PRs) or Merge Requests (MRs):
+
+1. **Fork the repository**: Create your own fork of the repository
+2. **Create a branch**: Create a feature branch from `main`:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes**: Implement your changes following the existing code style
+4. **Test your changes**: Ensure your changes work correctly and don't break existing functionality
+5. **Update documentation**: If your changes affect the module's interface or behavior, update the README accordingly
+6. **Commit your changes**: Write clear, descriptive commit messages:
+   ```bash
+   git commit -m "Add feature: description of your changes"
+   ```
+7. **Push to your fork**: Push your branch to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+8. **Open a Pull Request or Merge Request**: Create a PR/MR from your fork to the main repository:
+   - Provide a clear description of what the PR/MR does
+   - Reference any related issues
+   - Include examples of how to use new features if applicable
+
+### Code Style Guidelines
+
+- Follow existing code formatting (use `terraform fmt`)
+- Write clear, descriptive variable and resource names
+- Add comments for complex logic
+- Keep functions focused and single-purpose
+- Update documentation for any API changes
+
+### Example Contributions
+
+Great contributions include:
+- Bug fixes
+- New features and enhancements
+- Documentation improvements
+- Additional examples in the `examples/` directory
+- Performance optimizations
+- Test coverage improvements
+
+### Questions?
+
+If you have questions about contributing or need help getting started, feel free to:
+- Open a discussion issue
+- Reach out through the repository
+
+Thank you for contributing to this project! 🎉
