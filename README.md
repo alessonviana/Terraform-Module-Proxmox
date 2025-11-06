@@ -138,7 +138,6 @@ provider "proxmox" {
 ## Repository
 
 This module is available at:
-- GitHub: `git@github.com:alessonviana/Terraform-Module-Proxmox.git`
 - GitHub (HTTPS): `https://github.com/alessonviana/terraform-module-proxmox.git`
 
 ## Versioning
@@ -158,7 +157,3 @@ source = "github.com/alessonviana/terraform-module-proxmox?ref=main"
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Specify license here]
